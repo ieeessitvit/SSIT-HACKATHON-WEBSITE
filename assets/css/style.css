@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* basic template styling*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    /* overflow:hidden; */
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #212121;
+}
+/* Nav Bar Styling*/
+nav{
+    position:fixed;
+    left:-572.5px;
+    z-index: 9;
+}
+.circle{
+    height: 901px;;
+    width:701px;
+    background-color: #ffeded;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .activePageElement{
+    color:white;
+    transition: 0.3s all ease;
+    background-color:#EB1616;
+    border-radius:50%;
+    padding:0.5rem;
+    height:auto;
+    width:auto;
+    margin-left: 2rem;
+    margin-right:0;
+} */
+.circle .icons-list li{
+    margin-left:30rem;
+    list-style-type: none;
+}
+.icons-list img{
+    height:30px;
+}
+
+/* Homepage styling */
+.superParent{
+    /* background:url('./images/background.gif');
+    background-repeat: repeat;
+    background-size: cover; */
+    height:100vh;
+    /* display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+#Home-Page{
+    height:100vh;
+}
+/* ssit logo positioning */
+.ssit-logo{
+    margin-right:3.4rem;
+    padding-top:2rem;
+}
+.ssit-logo img{
+    float:right;
+    height:auto;
+    width:10.5rem;
+}
+
+
+/* heading styling and positioning */
+.heading{
+    margin-left:15.7rem;
+    margin-top:2.4rem;
+}
+.before-title{
+    margin-top:7rem;
+    color:white;
+    font-family: 'Poppins',sans-serif;
+    font-size:2rem;
+}
+.h4ctitle{
+    width:auto;
+    height:7rem;
+}
+
+
+
+/* buttons, countdown and logo */
+.tlink a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+}
+.tlink img{
+    /* display:flex; */
+    /* align-items: center; */
+    height:30px;
+}
+
+/* making a flexbox for arranging countdown and 
+   links one side , and logo on the other. */
+.flexbox1{
+    display:flex;
+    /* align-items: center; */
+    justify-content:baseline;
+    margin-right:2.5rem;
+}
+.links{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.links li{
+    text-align: center;
+    width:fit-content;
+    margin:1rem;
+    border:2px solid #EB1616;
+    border-radius:5rem;
+    padding:0.5rem;
+}
+.links li a{
+    padding:0.5rem;
+    color:white;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+.links li:hover{
+    color:#ffeded;
+    background-color:#EB1616;
+}
+.h4cdesk{
+    height:25rem;
+    transform: rotate(-23.03deg);
+    margin-left:10rem;
+}
+/*removing the mobile div of h4c logo */
+.h4cmob{
+    display:none;
+}
+/* removing mobile div of timer */
+.timer-mob{
+    display:none;
+}
+/* styling and positioning of timer in desktop */
+.timer-desk{
+    margin-left:2rem;
+    margin-bottom:4rem;
+    margin-top:4rem;
+    font-size:2rem;
+    color:#ffeded;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins',sans-serif;
+}
+.timer-desk th{
+    text-align: left;
+    padding-right:1.5rem;   
+}
+.timer-desk td{
+    padding-right:1.5rem;
+}
+/* styling navbar icons */
+.home{
+    height:35px;
+    width:auto;
+    margin:1rem;
+    padding:0;
+}
+/* atyling about us section */
+#about-us{
+    height:100vh;
+    background-color:#212121;
+}
