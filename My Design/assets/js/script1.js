@@ -13,8 +13,11 @@ Array.from(a).forEach(function changeIcons(element, index) {
     element.addEventListener('mouseenter', () => {
         temp = element.getAttribute('src');
         element.setAttribute('src', `./assets/images/${c[1]}-3.png`);
+        element.children[0].style.color="red";
         curr = element.getAttribute('src');
     });
+
+
     element.addEventListener('click', () => {
         if (!element.classList.contains('active')) {
             activeElement.classList.remove('active');
@@ -52,6 +55,10 @@ Array.from(a).forEach(function changeIcons(element, index) {
 
     hamburger.addEventListener("click", change);
 })();
+
+// to control scroll
+
+
 
 // to implement the countdown 
 // code inspired from : https://www.educative.io/edpresso/how-to-create-a-countdown-timer-using-javascript

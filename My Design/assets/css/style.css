@@ -154,11 +154,11 @@ section{
     margin-left:6rem;
     cursor: pointer;
     transition:0.3s all ease-in-out;
-    background-color:#fafafa;
+    background-color:#ffeded;
     border-radius: 50%;
 }
 .show-all-fs:hover{
-    background-color:rgb(230, 223, 223);
+    background-color:rgb(252, 225, 225);
 }
 .circle{
     height: 46.938rem;
@@ -198,12 +198,17 @@ section{
 .btn{
     display: flex;
 }
+
 .btn a{
     text-decoration: none;
+}
+.flxbox2{
     display:flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     color:#212121;
+    padding:0;
 }
 .icon-desc{
     display:none;
@@ -211,7 +216,6 @@ section{
     display:flex;
     text-align: center;
 }
-
 
 /* Homepage styling */
 /* #particles-js{
