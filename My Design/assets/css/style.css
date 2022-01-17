@@ -392,7 +392,7 @@ section{
     background-color:#212121;
 }
 
-.about-us-heading{
+.main-heading{
     margin-top:2rem;
     color:#fafafa;
     font-size: 4rem;
@@ -405,4 +405,32 @@ section{
     text-align: justify;
     line-height: 2rem;
     font-family: 'Montserrat';
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    height:80vh;
+    overflow: scroll;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:2rem;
+}
+.card{
+    background-color:#ffeded;
+    font-family: 'Montserrat';
+    font-size: large;
+    margin:4rem;
+    width:30rem;
+    height:15rem;
+    border:1px solid #EB1616;
+    padding:2rem;
+}
+.card:hover{
+    box-shadow: 5px 5px 4px 5px #212121;
 }
