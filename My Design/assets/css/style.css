@@ -22,16 +22,9 @@ section{
     margin:0;
 }
 /* Nav Bar Styling*/
-.navbar{
-    position:fixed;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height:100vh;
-    left:-35.781rem;
-    overflow: hidden;
-    z-index: 9;
-    transition:0.3s all ease;
+
+#mob-navbar{
+    display: none;
 }
 .overlay{
     display: none;
@@ -99,7 +92,7 @@ section{
     width: 100%;
     min-height: 100%;
     background-color: #1a1a1a;
-    z-index: 2;
+    /* z-index: 2; */
     transform: translateY(-100%);
     transition: all 0.5s ease-in-out;
     display: flex;
@@ -125,10 +118,51 @@ section{
     opacity: 1;
   }
 
+.navbar{
+    position:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    left:-36.781rem;
+    overflow: hidden;
+    z-index: 9;
+    transition:0.3s all ease;
+}
+.navbar-fs{
+    position:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    left:-35.781rem;
+    overflow: hidden;
+    z-index: 9;
+    transition:0.3s all ease;
+}
+.show-all{
+    margin-left:2rem;
+    cursor: pointer;
+    transition:0.3s all ease-in-out;
+    background-color:#ffeded;
+    border-radius: 50%;
+}
+.show-all:hover{
+    background-color:rgb(252, 225, 225);
+}
+.show-all-fs{
+    margin-left:6rem;
+    cursor: pointer;
+    transition:0.3s all ease-in-out;
+    background-color:#fafafa;
+    border-radius: 50%;
+}
+.show-all-fs:hover{
+    background-color:rgb(230, 223, 223);
+}
 .circle{
     height: 46.938rem;
     width:46.938rem;
-    left:-35.781rem;
     background-color: #ffeded;
     border-radius: 50%;
     display: flex;
@@ -146,10 +180,14 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    /* top:-2%; */
+    text-align: right;
     transition:0.3s all ease;
 }
+.icons-list-fs{
+    margin-left:30rem;
+    list-style-type: none;
+}
+
 .circle .icons-list{
     margin-left:36rem;
     list-style-type: none;
@@ -157,13 +195,23 @@ section{
 .icons-list img{
     height:2.3rem;
 }
+.btn{
+    display: flex;
+}
+.btn a{
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#212121;
+}
 .icon-desc{
     display:none;
+    padding:0;
+    display:flex;
+    text-align: center;
 }
-.icons-list-fs{
-    margin-left:9rem;
-    list-style-type: none;
-}
+
 
 /* Homepage styling */
 /* #particles-js{
@@ -334,7 +382,6 @@ section{
     margin:1rem;
     padding:0;
 }
-
 /* atyling about us section */
 #about-us{
     height:100vh;
