@@ -110,7 +110,7 @@ var myfunc = setInterval(function () {
 
     document.getElementById("hours").innerHTML = hours
     document.getElementById("minutes").innerHTML = minutes
-    document.getElementById("seconds").innerHTML = seconds
+    document.getElementById("seconds").innerHTML = `<span style="color:#eb1616">${seconds}</span`;
 
     document.getElementById("hours-2").innerHTML = hours
     document.getElementById("minutes-2").innerHTML = minutes
