@@ -146,3 +146,7 @@ section{
 li.tlink{
     padding-left:0.5rem;
 }
+.info{
+    margin:0;
+    width:auto;
+}
