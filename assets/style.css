@@ -291,7 +291,7 @@ margin-top: 15%;
   text-align: center;
   font-size:2.4em;
 }
-.dom h1{
+.dom h1,.fq h2{
   text-align: center;
   font-size: 64px;
   margin-top: 10px;
@@ -974,7 +974,7 @@ ul{
     padding: 5px;
     text-align: center;
   }
-  .dom h1{
+  .dom h1,.fq h2{
     padding-top: 50px;
     font-size: 2.6em;
   }
