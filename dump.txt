@@ -1,0 +1,12 @@
+.backInLeft{
+  -webkit-animation: backInLeft 1.5s;
+  animation: backInLeft 1.5s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+.backInRight{
+  -webkit-animation: backInRight 1.5s;
+  animation: backInRight 1.5s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
