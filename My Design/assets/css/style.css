@@ -251,6 +251,14 @@ section{
 }
 #Home-Page{
     height:auto;
+    /* background-color: #212121; */
+    background:url('../images/spark1.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    animation:a3 infinite linear alternate;
+}
+@keyframes a3 {
+    100%{background-position:10vw;}
     
 }
 .wrapper{
@@ -405,14 +413,22 @@ section{
     margin:1rem;
     padding:0;
 }
+
 /* atyling about us section */
 #about-us{
     height:auto;
     /* background-color:#212121; */
+    /* background:url('../images/spark4.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover; */
 }
-.about-us{
-    background:url('../images/Desktop\ -\ 1.png')
+.contact{
+    background:url('../images/spark2.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
 }
+
+
 .main-heading{
     margin-top:2rem;
     color:#fafafa;

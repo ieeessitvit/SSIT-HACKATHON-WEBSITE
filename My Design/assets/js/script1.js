@@ -26,6 +26,7 @@ Array.from(a).forEach(function changeIcons(element, index) {
             activeElement.setAttribute('src', `${activeCurr}`);
             activeElement = element;
             activeCurr = temp;
+
         }
     });
     element.addEventListener('mouseleave', () => {
