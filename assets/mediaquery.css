@@ -12,9 +12,10 @@
     margin-left:1rem;
 }
 .ssit-logo img{
-    float:none;
+    float:left;
     height:3rem;
     width:auto;
+    margin-top: 30px;
 }
 /* positioning and styling of title and before title */
 .heading{
@@ -53,6 +54,7 @@
     margin:0;
     height:10rem;
     margin-bottom:0.5rem;
+    margin-left: 20px;
 }
 .h4cdesk{
     display:none;

@@ -2,149 +2,492 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page H4C</title>
-    <link rel="icon" href="assets/images/H4C_redesigned_2@300x.png">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/navstyle.css">
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="assets/mediaquery.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hack4Cause 5.0</title>
+  <link rel="icon" href="assets/images/H4C_redesigned_2@300x.png">
+  <link rel="stylesheet" href="./assets/navstyle.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 767px)" href="assets/mediaquery.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body>
-    <!-- navbar section -->
-        <div id="overlay">
-          <a href="#">Link1</a>
-          <a href="#">Link2</a>
-          <a href="#">Link3</a>
-          <a href="#">Link4</a>
+<div>
+  <div id="overlay">
+    <a href="#abt">ABOUT US</a>
+    <a href="#time">TIMELINE</a>
+    <a href="#dm">DOMAINS</a>
+    <a href="#">Link4</a>
+  </div>
+  <div class="nav">
+    <div class="ssit-logo">
+      <img src="./assets/images/IEEE_SSIT_Logo-e1589395691479 2.png">
+    </div>
+    <div id="hamburger">
+      <div></div>
+    </div>
+  </div>
+  <div id="particles-js"></div>
+  <div class="homeparent">
+
+    <div class="heading">
+      <div class="title">
+        <img class="h4cmob" src="assets/images/H4C_redesigned_2@300x.png">
+        <img class="h4ctitle" src="assets/images/Mask Group.png">
+        <div class="flexbox1">
+          <ul id="countdown">
+            <li>
+              <p><span id="days"></span>:</p>
+            </li>
+            <li><span id="hours"></span>:</li>
+            <li><span id="minutes" style="color: #EB1616;"></span>:</li>
+            <li><span id="seconds" style="color: #EB1616;"></span></li>
+          </ul>
+          <ul class="btns">
+            <li><button id="register">Register Now</button></li>
+            <li>
+              <a href="#" target="_blank">
+                <button id="register">
+                  <span class="dc">
+                    <img height="32px" src="./assets/images/discord-logo.png" alt="discord" />
+                    Join our discord
+                  </span>
+                </button>
+              </a>
+            </li>
+            <li>
+              <a href="/assets/Brochure.pdf" download>
+                <button id="register">
+                  <i class="icon fas fa-download"></i>
+                  Download Brochure
+                </button>
+              </a>
+            </li>
+          </ul>
+          <img class="h4cdesk" src="assets/images/H4C_redesigned_2@300x.png">
         </div>
-        <div class="nav">
-          <div class="logo"></div>
-          <div id="hamburger">
-            <div></div>
-          </div>
-        </div>
-    <!-- super parent for background gif -->
-    <div id="particles-js"></div>
-    <div class="superParent" >
-        <div class="overlay"></div>
-        <!-- home parent for all of home page elements -->
-        <div class="homeParent">
-            <!-- ssit logo -->
-            <div class="ssit-logo">
-                <img src="./assets/images/IEEE_SSIT_Logo-e1589395691479 2.png">
-            </div>
-            <!-- headings for both mobile and desktop -->
-            <div class="heading">
-                <!-- before tile  -->
-                <div class="before-title">&nbspBIGGEST HACKATHON in VIT</div>
-                <!-- title and title images -->
-                <div class="title">
-
-                    <!-- mobile image -->
-                    <img class="h4cmob" src="assets/images/H4C_redesigned_2@300x.png">
-
-                    <!-- h4c title -->
-                    <img class="h4ctitle" src="assets/images/Mask Group.png">
-
-                    <!-- adding timer along with logo as flexbox -->
-                    <div class="flexbox1">
-                        <!-- links of homepage -->
-                        <ul class="links">
-                            <!-- timer for desktop -->
-                            <div class="timer-desk">
-                                <div class="dhm">
-                                    <span class="days">DAYS</span>
-                                    <span class="hours">HOURS</span>
-                                    <span class="minutes">MINUTES</span>
-                                </div>
-                            </div>
-                            <!-- timer for mobile -->
-                        </ul>
-                        <ul class="btns">
-                            <li><button id="register">Register Now</button></li>
-                            <li><a href="" target="_blank">
-                                  <button id="register">
-                                    <img
-                                    height="32px"
-                                    src="./assets/images/discord-logo.png"
-                                    alt="discord"
-                                    />
-                                    Join our discord
-                                  </button>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/assets/Brochure.pdf" download>
-                                <button id="register">
-                                    <i class="icon fas fa-download"></i>
-                                    Download Brochure
-                                </button>
-                                </a>
-                            </li>
-                        </ul>
-                        <!-- desktop image -->
-                        <img class="h4cdesk" src="assets/images/H4C_redesigned_2@300x.png">
-
-                    </div>
-
-
-                </div>
-            </div>
-
-        </div>
-        <div class="about">
-
-        </div>
+      </div>
+    </div>
+    <div class="about" id="abt">
+      <h2 style="color: white;">About <span style="color:#EB1616">HACK</span>4<span style="color:#EB1616">CAUSE</span>
+      </h2>
+      <P>
+        IEEE-SSIT would like to bring Hack4Cause, a 48-hours hackathon which aims to bring creativity and innovation
+        among students. Hack4Cause brings students from different domains of engineering together to build, design and
+        use the latest technology to hack into real-world problems. The dates for the event are the 5th March and 6th
+        March. The main motive behind Hack-4-Cause is to bring a change in the perspective of students in critical
+        industrial situations. As the students will be solving industry-based problems, they will get to know the
+        technologies involved in leading industries. This event will not only bridge the gap between theoretical and
+        practical knowledge but at the same time motivate students to take challenges and come up with an innovative
+        solution to these challenges.
+      </P>
     </div>
     
-<script src="./particles.js"></script>
-<script src="js/app.js"></script>
+    <div class="timeline-main" id="time">
+      <h1 class=time-header><span style="color:#EB1616">TIME</span>LINE</h1>
+      <div class="timeline-wrap">
+        <ul class="timeline timeline--first">
+          <li class="era">
+            <h2 class="era__title">5th March</h2>
+          </li>
+          <li class="entry entry--left">
+            <div class="entry__content">
+              <h2>10:00 am</h2>
+              <p>Inauguration Ceremony</p>
+            </div>
+          </li>
+          <li class="entry entry--right">
+            <div class="entry__content">
+              <h2>11:00 am</h2>
+              <p>Workshop-1 </p>
+            </div>
+          </li>
+          <li class="entry entry--left">
+            <div class="entry__content">
+              <h2>12:00 pm</h2>
+              <p>Event details</p>
+            </div>
+          </li>
+          <li class="entry entry--right">
+            <div class="entry__content">
+              <h2>1:00 pm</h2>
+              <p>Round 1 begins</p>
+            </div>
+          </li>
+          <li class="era">
+            <h2 class="era__title">5th March</h2>
+          </li>
+          <li class="entry entry--left">
+            <div class="entry__content">
+              <h2>10:00 am</h2>
+              <p>Inauguration Ceremony</p>
+            </div>
+          </li>
+          <li class="entry entry--right">
+            <div class="entry__content">
+              <h2>11:00 am</h2>
+              <p>Workshop-1 </p>
+            </div>
+          </li>
+          <li class="entry entry--left">
+            <div class="entry__content">
+              <h2>12:00 pm</h2>
+              <p>Event details</p>
+            </div>
+          </li>
+          <li class="entry entry--right">
+            <div class="entry__content">
+              <h2>1:00 pm</h2>
+              <p>Round 1 begins</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-<!-- stats.js -->
-<script>
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-</script>
+    <div class="dom" id="dm">
+      <h1><span style="color: #EB1616;">DOM</span>AINS</h1>
+      <div class="main-container">
+        <div class="cards">
+          <div class="card">
+            <h2 class="card__title">Blockchain</h2>
+            <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="card">
+            <h2 class="card__title">Internet of Things</h2>
+            <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="card">
+            <h2 class="card__title">Cyber Security</h2>
+            <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="card">
+            <h2 class="card__title">Image Processing</h2>
+            <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="card">
+            <h2 class="card__title">Software Development</h2>
+            <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="card">
+            <h2 class="card__title">Artificial Intelligence</h2>
+            <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+        </div>
+        <div class="main-container">
+          
+        </div>
+      </div>
+    </div>
+    <div id="clients">
+      <h2 id="a1">PROUD SPONSORS</h2>
+      <div class="group">
+        <h3 id="a2">INNOVATION PARTNER</h3>
+        <h3 id="a3">KNOWLEDGE PARTNER</h3>
+        <h3 id="a4">EDUCATION PARTNER</h3>
+      </div>
+    </div>
+    <div class="dom">
+      <h1><span style="color: #EB1616;">TRA</span>CKS</h1>
+      <div class="main-container">
+        <div class="cards">
+          <div class="cardi">
+            <h2 class="title_tracks">Healthcare</h2>
+            <p id="pt">In India, considerable work has been done to reform the healthcare sector, which has involves the
+              government and various stakeholders. Delivering affordable health care to billions of people presents
+              enormous challenges for the medical community</p>
+            <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="cardi">
+            <h2 class="title_tracks">Agriculture</h2>
+            <p id="pt">Being the primary source of income for more than half the nation, advancements in the field of
+              agriculture are synchronous with the nation's strides towards becoming a global superpower.</p>
+            <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="cardi">
+            <h2 class="title_tracks">Education & Productivity</h2>
+            <p id="pt">Education is the foundation on which the development of every citizen and the nation as a whole
+              built on.Productivity is very essential in every sector for rapid development</p>
+            <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="cardi">
+            <h2 class="title_tracks">Crisis and Disaster Management</h2>
+            <p id="pt">Disaster Management can be defined as the organization and management of resources and
+              responsibilities for dealing with all humanitarian aspects of emergencies.</p>
+            <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="cardi">
+            <h2 class="title_tracks">Security & Surveillance</h2>
+            <p id="pt">Security and surveillance are implemented by criminal justice agencies to maintain order, enforce
+              the law and to reduce victimization in the society.</p>
+            <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="cardi">
+            <h2 class="title_tracks">Industrial Development</h2>
+            <p id="pt">With the start of industrial revolution in late 1800s, industrial development is seen as a key
+              player to determine a nation's human development and quality of living.</p>
+            <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="cardi">
+            <h2 class="title_tracks">Open Innovation</h2>
+            <p id="pt">Open innovation is a concept AI originated that falls directly in the gap between business and
+              academics. It leads to greater technological advancements in a relatively shorter time because together we
+              work, together we innovate.</p>
+            <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+          <div class="cardi">
+            <h2 class="title_tracks">Fintech</h2>
+            <p id="pt">Fintech has also been a key game changer for entrepreneurs, making it easier for startups and
+              small businesses to secure loans, manage payroll, and process payments.</p>
+            <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="global-label">
+        <div class="global-label-text">
+          Frequently asked question
+        </div>
 
+      </div>
+      <!--1 question-->
+      <div class="faq-container">
+        <div class="faq-label">
+          <div class="faq-label-text">
+            Q: Who all can register?
+          </div>
+          <div class="faq-label-icon">
+            <span class="material-icons">
+              expand_more
+            </span>
+          </div>
+        </div>
+        <div class="faq-answer ">
+          <div class="faq-answer-content">
+            The hackathon is open for all
+          </div>
+
+        </div>
+      </div>
+      <!--2 question-->
+      <div class="faq-container">
+        <div class="faq-label">
+          <div class="faq-label-text">
+
+            Q: What is the registration fee?
+          </div>
+          <div class="faq-label-icon">
+            <span class="material-icons">
+              expand_more
+            </span>
+          </div>
+
+        </div>
+        <div class="faq-answer ">
+          <div class="faq-answer-content">
+            Registrations are completely free
+          </div>
+
+        </div>
+      </div>
+      <!--2 question-->
+      <div class="faq-container">
+        <div class="faq-label">
+          <div class="faq-label-text">
+
+            Q. How many members in a team?
+          </div>
+          <div class="faq-label-icon">
+            <span class="material-icons">
+              expand_more
+            </span>
+          </div>
+
+        </div>
+        <div class="faq-answer ">
+          <div class="faq-answer-content">
+
+            There can be minimum of 3 and maximum of 5 members in a team
+          </div>
+
+        </div>
+      </div>
+      <!--2 question-->
+      <div class="faq-container">
+        <div class="faq-label">
+          <div class="faq-label-text">
+
+            Q. When do applications close?
+          </div>
+          <div class="faq-label-icon">
+            <span class="material-icons">
+              expand_more
+            </span>
+          </div>
+
+        </div>
+        <div class="faq-answer ">
+          <div class="faq-answer-content">
+
+            Application closes on 3rd March 2022
+          </div>
+
+        </div>
+      </div>
+      <!--2 question-->
+      <div class="faq-container">
+        <div class="faq-label">
+          <div class="faq-label-text">
+
+            Q. What is the duration of the hack?
+          </div>
+          <div class="faq-label-icon">
+            <span class="material-icons">
+              expand_more
+            </span>
+          </div>
+
+        </div>
+        <div class="faq-answer ">
+          <div class="faq-answer-content">
+
+            Hack4Cause will go on for 48 hours
+          </div>
+
+        </div>
+      </div>
+
+      <div class="contacts">
+        <h1><span style="color: #EB1616;">CONT</span>ACT US</h1>
+        <div class="con">
+          <div class="con1">
+            <img src="./assets/images/IEEE_SSIT_Logo-e1589395691479 2.png">
+          </div>
+          <div class="con2">
+            <h3>
+              <p>
+                Vellore Institute of Technology<br>
+                Vellore, Tamil Nadu - 632014
+              </p>
+              <p style="display: flex; flex-direction: row; justify-content:center;">
+                <img src="https://img.icons8.com/doodle/48/000000/gmail.png" />
+                <span style="text-align: center; padding:10px;">ieeessit@vit.ac.in</span>
+              </p>
+              <p class="wht" style="display: flex; flex-direction: row; justify-content:center; text-align: center;">
+                <img src="https://img.icons8.com/doodle/48/000000/whatsapp.png" />
+                <span style="text-align: center; padding:10px;">+917294992887<span
+                    style="margin-left:2px;"></span>+919513017739
+                </span>
+              </p>
+              <p>
+                ® IEEE SSIT - VIT All Rights Reserved.
+              </p>
+            </h3>
+          </div>
+        </div>
+        <div class="soc">
+          <ul>
+            <li><a href="#"><img src="https://img.icons8.com/doodle/48/000000/facebook-new.png" /></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/doodle/48/000000/inshot.png" /></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/doodle/48/000000/youtube-play--v2.png" /></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png" /></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       (() => {
-  const hamburger = document.getElementById("hamburger");
-  const menu = document.getElementById("overlay");
-  let open = false;
+      const hamburger = document.getElementById("hamburger");
+      const menu = document.getElementById("overlay");
 
-  const change = () => {
-    if (!open) {
-      hamburger.classList.add("open");
-      menu.classList.add("menu");
-    } else {
-      hamburger.classList.remove("open");
-      menu.classList.remove("menu");
-    }
-    open = !open;
-  };
+      let open = false;
 
-  hamburger.addEventListener("click", change);
-})();
+      const change = () => {
+        if (!open) {
+          hamburger.classList.add("open");
+          menu.classList.add("menu");
+        } else {
+          hamburger.classList.remove("open");
+          menu.classList.remove("menu");
+        }
+        open = !open;
+      };
+
+      hamburger.addEventListener("click", change);
+      const links = document.getElementById('overlay').children;
+    Array.from(links).forEach(element => {
+      element.addEventListener("click",change);
+    });
+    })();
+    </script>
+    <script>
+      (function () {
+        const second = 1000,
+          minute = second * 60,
+          hour = minute * 60,
+          day = hour * 24;
+        let today = new Date(),
+          dd = String(today.getDate()).padStart(2, "0"),
+          mm = String(today.getMonth() + 1).padStart(2, "0"),
+          yyyy = today.getFullYear(),
+          nextYear = yyyy + 1,
+          dayMonth = "03/05/",
+          birthday = dayMonth + yyyy;
+
+        today = mm + "/" + dd + "/" + yyyy;
+        if (today > birthday) {
+          birthday = dayMonth + nextYear;
+        }
+        //end
+
+        const countDown = new Date(birthday).getTime(),
+          x = setInterval(function () {
+
+            const now = new Date().getTime(),
+              distance = countDown - now;
+
+            document.getElementById("days").innerText = Math.floor(distance / (day)),
+              document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+              document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+              document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+            //do something later when date is reached
+            if (distance < 0) {
+              document.getElementById("headline").innerText = "It's my birthday!";
+              document.getElementById("countdown").style.display = "none";
+              document.getElementById("content").style.display = "block";
+              clearInterval(x);
+            }
+            //seconds
+          }, 0)
+      }());
 
     </script>
-</body>
+    <script>
+
+
+      let faqLabel = document.querySelectorAll(".faq-label");
+
+      faqLabel.forEach(item => item.onclick = () => {
+        //selektuje Answer
+        item.nextElementSibling.classList.toggle('active');
+
+
+        let labelIcon = item.lastElementChild;
+        let icons = labelIcon.lastElementChild;
+        icons.classList.toggle('rotate');
+
+
+      })
+
+    </script>
+    </body>
 
 </html>
