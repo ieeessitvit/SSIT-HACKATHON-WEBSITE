@@ -5,15 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hack4Cause 5.0</title>
+  <title>Hack4Cause 4.0</title>
   <link rel="icon" href="assets/images/H4C_redesigned_2@300x.png">
   <link rel="stylesheet" href="./assets/navstyle.css">
   <link rel="stylesheet" href="./assets/style.css">
   <link rel="stylesheet" media="screen and (max-width: 767px)" href="assets/mediaquery.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-
+<body>
 <div>
   <div id="overlay">
     <a href="#home">HOME</a>
@@ -22,7 +23,7 @@
     <a href="#dm">DOMAINS</a>
     <a href="#clients">SPONSORS</a>
     <a href="#tracks">TRACKS</a>
-    <a href="#fq">FAQ</a>
+    <a href="#fqt">FAQ</a>
     <a href="#cnn">CONTACT US</a>
   </div>
   <div class="nav">
@@ -42,17 +43,20 @@
         <img class="h4ctitle" src="assets/images/Mask Group.png">
         <div class="flexbox1">
           <ul id="countdown">
+            <ul id="countdown">
             <li>
               <p><span id="days"></span>:</p>
             </li>
             <li><span id="hours"></span>:</li>
-            <li><span id="minutes" style="color: #EB1616;"></span>:</li>
-            <li><span id="seconds" style="color: #EB1616;"></span></li>
+            <li><span id="minutes" style="color: #EB1616;"></span></li>
+            <li><span id="seconds" style="color: #EB1616; display: none;"></span></li>
+            </ul>
           </ul>
           <ul class="btns">
+            <span id="nbtn">
             <li><button id="register">Register Now</button></li>
             <li>
-              <a href="#" target="_blank">
+              <a href="#" target="">
                 <button id="register">
                   <span class="dc">
                     <img height="32px" src="./assets/images/discord-logo.png" alt="discord" />
@@ -61,8 +65,9 @@
                 </button>
               </a>
             </li>
+          </span>
             <li>
-              <a href="/assets/Brochure.pdf" download>
+              <a href="./assets/Brochure.pdf" download>
                 <button id="register">
                   <i class="icon fas fa-download"></i>
                   Download Brochure
@@ -91,7 +96,8 @@
     
     <div class="timeline-main" id="time">
       <h1 class=time-header><span style="color:#EB1616">TIME</span>LINE</h1>
-      <div class="timeline-wrap">
+      <h3><span style="color:#EB1616">UNDER</span>CONSTRUCTION!</h1>
+      <div class="timeline-wrap" style="display: none;">
         <ul class="timeline timeline--first">
           <li class="era">
             <h2 class="era__title">5th March</h2>
@@ -156,98 +162,109 @@
       <div class="main-container">
         <div class="cards">
           <div class="card">
-            <div id="cnt"></div>
             <h2 class="card__title">Blockchain</h2>
             <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
           <div class="card">
-            <div id="cnt"></div>
             <h2 class="card__title">Internet of Things</h2>
             <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
           <div class="card" >
-            <div id="cnt"></div>
             <h2 class="card__title">Cyber Security</h2>
             <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
           <div class="card">
-            <div id="cnt"></div>
             <h2 class="card__title">Image Processing</h2>
             <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
           <div class="card">
-            <div id="cnt"></div>
-            <h2 class="card__title">Software Development</h2>
+            <h2 class="cardtit">Software Development</h2>
             <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
           <div class="card">
-            <div id="cnt"></div>
-            <h2 class="card__title">Artificial Intelligence</h2>
+            <h2 class="cardtit">Artificial Intelligence</h2>
             <img class="cardlogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
         </div>
-        <div class="main-container">
-          
-        </div>
       </div>
     </div>
+    
     <div id="clients">
-      <h2 id="a1">PROUD SPONSORS</h2>
-      <div class="group">
-        <h3 id="a2">INNOVATION PARTNER</h3>
-        <h3 id="a3">KNOWLEDGE PARTNER</h3>
-        <h3 id="a4">EDUCATION PARTNER</h3>
-      </div>
+      <h2 id="a1">PREVIOUS SPONSORS</h2>
+    <div class="groupspon titles">
+            <img class="sponsor-img" src="./assets/images/alstom.png">
+
+            <img class="sponsor-img" src="./assets/images/conv.png">
+
     </div>
+    <div class="groupspon premium">
+            <img class="sponsor-img" src="./assets/images/grund.png">
+
+            <img class="sponsor-img" src="./assets/images/kunst.png">
+
+    </div>
+    <div class="groupspon">
+      <span class="thidal">  <img class="sponsor-img" src="./assets/images/thidal.png"></span>
+
+
+            <img class="sponsor-img" src="./assets/images/cyber.png">
+
+          <img class="sponsor-img" src="./assets/images/ely.png">
+
+            <img class="sponsor-img" src="./assets/images/aspir.png">
+
+    </div>
+    </div>
+
     <div class="dom" id="tracks">
       <h1><span style="color: #EB1616;">TRA</span>CKS</h1>
       <div class="main-container">
-        <div class="cards">
-          <div class="cardi">
+        <div class="cardsi" id="cards-con">
+          <div class="cardi" id="c1">
             <h2 class="title_tracks">Healthcare</h2>
             <p id="pt">In India, considerable work has been done to reform the healthcare sector, which has involves the
               government and various stakeholders. Delivering affordable health care to billions of people presents
               enormous challenges for the medical community</p>
             <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
-          <div class="cardi">
+          <div class="cardi" id="c2">
             <h2 class="title_tracks">Agriculture</h2>
             <p id="pt">Being the primary source of income for more than half the nation, advancements in the field of
               agriculture are synchronous with the nation's strides towards becoming a global superpower.</p>
             <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
-          <div class="cardi">
+          <div class="cardi" id="c3">
             <h2 class="title_tracks">Education & Productivity</h2>
             <p id="pt">Education is the foundation on which the development of every citizen and the nation as a whole
               built on.Productivity is very essential in every sector for rapid development</p>
             <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
-          <div class="cardi">
+          <div class="cardi" id="c4">
             <h2 class="title_tracks">Crisis and Disaster Management</h2>
             <p id="pt">Disaster Management can be defined as the organization and management of resources and
               responsibilities for dealing with all humanitarian aspects of emergencies.</p>
             <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
-          <div class="cardi">
+          <div class="cardi" id="c5">
             <h2 class="title_tracks">Security & Surveillance</h2>
             <p id="pt">Security and surveillance are implemented by criminal justice agencies to maintain order, enforce
               the law and to reduce victimization in the society.</p>
             <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
-          <div class="cardi">
+          <div class="cardi" id="c6">
             <h2 class="title_tracks">Industrial Development</h2>
             <p id="pt">With the start of industrial revolution in late 1800s, industrial development is seen as a key
               player to determine a nation's human development and quality of living.</p>
             <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
-          <div class="cardi">
+          <div class="cardi" id="c7">
             <h2 class="title_tracks">Open Innovation</h2>
             <p id="pt">Open innovation is a concept AI originated that falls directly in the gap between business and
               academics. It leads to greater technological advancements in a relatively shorter time because together we
               work, together we innovate.</p>
             <img class="tracklogo" src="assets/images/H4C_redesigned_2@300x.png">
           </div>
-          <div class="cardi">
+          <div class="cardi" id="c8">
             <h2 class="title_tracks">Fintech</h2>
             <p id="pt">Fintech has also been a key game changer for entrepreneurs, making it easier for startups and
               small businesses to secure loans, manage payroll, and process payments.</p>
@@ -255,8 +272,18 @@
           </div>
         </div>
       </div>
+      <span class="bttn" style="display: none;">
+      <span id="btn1"><svg  xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+      </svg>
+    </span>
+      <a id="btn2"><svg id="btn2" xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+    </a>
+    </span>
     </div>
-    <div class="fq">
+    <div class="fq" id="fqt">
       <h2><span style="color: #EB1616">FA</span>Q</h2>
     <div class="faq" id="fq">
       <div class="global-label">
@@ -372,7 +399,6 @@
         </div>
       </div>
     </div>
-  </div>
       <div class="contacts" id="cnn">
         <h1><span style="color: #EB1616;">CONT</span>ACT US</h1>
         <div class="con">
@@ -390,7 +416,7 @@
                 <span style="text-align: center; padding:10px;">ieeessit@vit.ac.in</span>
               </p>
               <p class="wht" style="display: flex; flex-direction: row; justify-content:center; text-align: center;">
-                <img src="https://img.icons8.com/doodle/48/000000/whatsapp.png" />
+                <img src="https://img.icons8.com/plasticine/60/000000/whatsapp.png"/>
                 <span style="text-align: center; padding:10px;">+917294992887<span
                     style="margin-left:2px;"></span>+919513017739
                 </span>
@@ -403,10 +429,10 @@
         </div>
         <div class="soc">
           <ul>
-            <li><a href="#"><img src="https://img.icons8.com/doodle/48/000000/facebook-new.png" /></a></li>
-            <li><a href="#"><img src="https://img.icons8.com/doodle/48/000000/inshot.png" /></a></li>
-            <li><a href="#"><img src="https://img.icons8.com/doodle/48/000000/youtube-play--v2.png" /></a></li>
-            <li><a href="#"><img src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png" /></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/49/000000/external-youtube-multimedia-prettycons-lineal-color-prettycons.png"/></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a></li>
           </ul>
         </div>
       </div>
@@ -415,6 +441,7 @@
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script>
       (() => {
       const hamburger = document.getElementById("hamburger");
@@ -501,6 +528,27 @@
       })
 
     </script>
+    <script>
+      
+      var p=document.getElementById('nbtn');
+      p.addEventListener("click", function() {
+  alert("UNDER CONSTRUCTION!");
+});
+    </script>
+    <script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    var leftPos = $('.cardsi').scrollLeft();
+  $(".cardsi").animate({scrollLeft: leftPos - 330}, 800);
+  });
+  $("#btn2").click(function(){
+    var leftPos = $('.cardsi').scrollLeft();
+  $(".cardsi").animate({scrollLeft: leftPos + 330}, 800);
+  });
+});
+    </script>
+    
+
     </body>
 
 </html>
