@@ -67,7 +67,7 @@ section{
 
 /* displaying mobile h4c logo and hiding desktop logo */
 .wrapper{
-    justify-content: space-around;
+    justify-content: center;
     padding:0;
     margin:0;
 }
@@ -177,9 +177,59 @@ li.tlink{
     flex-direction: column;
     justify-content: space-around;
 }
+/* sponsors section */
+.group{
+    flex-direction: column;
+    margin:0;
+}
+.sponsor-title{
+    border:2px solid #EB1616;
+}
+.sponsor-card{
+    margin-bottom:1rem;
+}
+.sponsor-img img{
+    flex-direction: column;
+    height:50px;
+}
+
+
+
 .con-info{
     flex-direction: column;
 }
 .logo{
     margin:1rem;
+}
+.navigation-mob{
+    display: block;
+}
+.container{
+    margin-bottom:1rem;
+}
+.contact .wrapper{
+    min-height:100vh;
+    justify-content: center;
+}
+.contact .main-heading{
+    display:none;
+}
+.contact-menu{
+    display:block;
+}
+.contact-menu li{
+    margin:0.5rem;
+    list-style-type: none;
+}
+.contact-menu a{
+    text-decoration: none;
+    color:#ffeded;
+}
+
+.faq-label {
+    width:90vw;
+}
+.faq-answer{
+    width:90vw;
+    /* margin:0; */
 }
